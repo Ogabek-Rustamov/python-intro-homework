@@ -1,23 +1,5 @@
 import csv
 
-a = [
-    {"name": "Alice", "category": "Food", "amount": "12.50"},
-    {"name": "Bob", "category": "Transport", "amount": "8.75"},
-    {"name": "Carol", "category": "Food", "amount": ""},
-    {"name": "David", "category": "Utilities", "amount": "45.00"},
-    {"name": "Eve", "category": "Food", "amount": "not_a_number"},
-    {"name": "Frank", "category": "Transport", "amount": "22.30"},
-    {"name": "Grace", "category": "Food", "amount": "15.00", None: ["extra_field"]},
-    {"name": "Hana", "category": "Utilities", "amount": "88.00"},
-    {"name": "Ivan", "category": "Food", "amount": "6.40"},
-    {"name": "Jess", "category": "Transport", "amount": "14.20"},
-    {"name": "Karl", "category": "Utilities", "amount": ""},
-    {"name": "Lena", "category": "Food", "amount": "9.80"},
-    {"name": "Marco", "category": "Transport", "amount": "fifteen"},
-    {"name": "Nina", "category": "Utilities", "amount": "33.60"},
-]
-
-
 clean_data = []
 skipped_rows = []
 rows_attempted = 0
